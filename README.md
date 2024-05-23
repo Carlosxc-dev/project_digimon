@@ -4,7 +4,6 @@
 
 ### clonar projeto do git
 
-```bash
 git clone <url do repositorio>
 
 ### instalar dependecias
@@ -18,4 +17,7 @@ yarn add
 yarn dev
 ou
 npm run dev
+
+```
+
 ```
