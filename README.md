@@ -1,17 +1,21 @@
-### projeto desenvolvido com framework react + typescript
+# PROJETO DIGIMON
 
-## clonar projeto do git
+## projeto desenvolvido com framework react + typescript
 
+### clonar projeto do git
+
+```bash
 git clone <url do repositorio>
 
-## instalar dependecias
+### instalar dependecias
 
 npm install
 ou
 yarn add
 
-## rodar projeto
+### rodar projeto
 
 yarn dev
 ou
 npm run dev
+```
