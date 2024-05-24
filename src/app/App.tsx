@@ -10,7 +10,6 @@ export default function App() {
 			<Global_styles/>
 			<Conteiner>
 				<Logo/>
-
 			</Conteiner>
 		</ThemeProvider>
 	)
