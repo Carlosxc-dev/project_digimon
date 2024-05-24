@@ -2,19 +2,20 @@ export default {
     title: 'light',
 
     colors: {
-        primary: '#FCCB03',
-        secundary: '#FFFFFF',
-        backgraund: '#121212',
-        txt: '#F1F1F1'
-
+        primary: '#FFFFFF',
+        secundary: '#008CC7',
+        backgraund_light: '#008CC7',
+        backgraund_dark: '#00123F',
+        text: '#FFFFFF'
     },
 
     fonts: {
-        title: '6rem',
-        subtitle: '1rem',
-        button: '1.31rem',
-        fontTitle: 'Bebas Neue',
-        fontSubTitle: 'Poppins',
+        card_title_size: '20px',
+        card_button_size: '20px',
+        options_size: '20px',
+        card_title_font: 'Doppio One',
+        card_button_font: 'Dosis',
+        options_font: "Inter",
     },
 
     screens:{

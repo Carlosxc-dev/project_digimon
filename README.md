@@ -10,7 +10,7 @@ git clone <url do repositorio>
 
 npm install
 ou
-yarn add
+yarn
 
 ### rodar projeto
 

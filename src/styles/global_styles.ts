@@ -8,9 +8,12 @@ export default createGlobalStyle`
   }
 
   body{
-    background-color: ${props => props.theme.colors.backgraund};
-    font-family: ${props => props.theme.fonts.fontTitle};
-    color: ${props => props.theme.colors.txt};
+    /* background: linear-gradient(to bottom, ${props => props.theme.colors.backgraund_light} , ${props => props.theme.colors.backgraund_dark}); */
+    background: linear-gradient(to bottom, #b3cde0, #6497b1, #005b96);
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    justify-content: center;
     
   }
 `;
