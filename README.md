@@ -7,10 +7,11 @@
 git clone <url do repositorio>
 
 ### instalar dependecias
-
+```
 npm install
 ou
 yarn
+```
 
 ### rodar projeto
 
