@@ -3,7 +3,7 @@ import { AppContext } from '../../service/render';
 import { Conteiner } from './style';
 
 export default function filter_bar() {
-	const { someValue, setSomeValue } = useContext(AppContext); // recebe o valor do contexto
+	const { setSomeValue } = useContext(AppContext); // recebe o valor do contexto
 
 	const get_all_digimon = async () => {
 		const response = await fetch(

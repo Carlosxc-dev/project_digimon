@@ -5,7 +5,7 @@ import { AppContext } from '../../service/render';
 
 export default function search_bar() {
 	const [name, setName] = useState('');
-	const { someValue, setSomeValue } = useContext(AppContext);
+	const { setSomeValue } = useContext(AppContext);
 
 	const handle_change = (event: any) => {
 		console.log(event.target.value);
