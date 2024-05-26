@@ -1,12 +1,12 @@
 export default {
-	title: 'dark',
+	title: 'light',
 
 	colors: {
-		primary: '#023059',
-		secundary: '#1D3D59',
-		backgraund_light: '#102333',
-		backgraund_dark: '#00070D',
-		text: '#d9d9d9',
+		primary: '#abb3bf',
+		secundary: '#008CC7',
+		backgraund_light: '#808ba2',
+		backgraund_dark: '#7fc4e2',
+		text: '#FFFFFF',
 		border: '#ffffff',
 	},
 

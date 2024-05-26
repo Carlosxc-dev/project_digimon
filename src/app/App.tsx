@@ -1,7 +1,11 @@
 import Global_styles from '../styles/global_styles';
+import { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
-import Dark from '../styles/theme/dark';
 import { Conteiner } from './style';
+
+//themes
+import Dark from '../styles/theme/dark';
+import Light from '../styles/theme/light';
 
 //components
 import Logo from '../components/logo/logo';
@@ -11,16 +15,25 @@ import Card from '../components/card/card';
 import Theme from '../components/tema/tema';
 
 export default function App() {
+	const [theme, setTheme] = useState(Light);
+
+	const handle_theme = () => {
+		theme === Light ? setTheme(Dark) : setTheme(Light);
+	};
+
 	return (
-		<ThemeProvider theme={Dark}>
+		<ThemeProvider theme={theme}>
 			<Global_styles />
 			<Conteiner>
 				<Logo />
-				<Theme />
 				<Search_bar />
 				<Filter_bar />
 				<Card />
 			</Conteiner>
+
+			<button onClick={handle_theme}>
+				<Theme icon={theme.title} />
+			</button>
 		</ThemeProvider>
 	);
 }
