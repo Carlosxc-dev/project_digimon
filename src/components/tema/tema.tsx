@@ -8,9 +8,9 @@ export default function tema(prop: { icon: string }) {
 			<p>Tema:</p>
 			<p>
 				{prop.icon === 'light' ? (
-					<MdNightlight size={30} />
-				) : (
 					<CiLight size={30} />
+				) : (
+					<MdNightlight size={30} />
 				)}
 			</p>
 		</Conteiner>
