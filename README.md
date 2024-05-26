@@ -3,10 +3,13 @@
 ## projeto desenvolvido com framework react + typescript
 
 ### clonar projeto do git
+
 ```
 git clone <url do repositorio>
 ```
+
 ### instalar dependecias
+
 ```
 npm install
 ou
@@ -14,16 +17,15 @@ yarn
 ```
 
 ### rodar projeto
+
 ```
 yarn dev
 ou
 npm run dev
 ```
 
-### tarefas 
-[] - mudar todas as cores para pegar do styles 
-[] - fazer tema dark e light
-[] - ajustar responsividade 
-[x] - mudar favicon
-[] - criar modal
-[]- criar back dos botoes de filtro
+### tarefas
+
+[] - mudar todas as cores para pegar do styles [] - fazer tema dark e light []
+-ajustar responsividade [x] - mudar favicon [] - criar modal [x]- criar back dos
+botoes de filtro [] - publicar na vercel
