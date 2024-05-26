@@ -41,4 +41,9 @@ export const Content = styled.div`
 			color: ${(props) => props.theme.colors.text};
 		}
 	}
+
+	form:hover {
+		border: 1px solid ${(props) => props.theme.colors.text};
+		background-color: ${(props) => props.theme.colors.secundary};
+	}
 `;

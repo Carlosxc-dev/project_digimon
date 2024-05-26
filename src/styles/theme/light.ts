@@ -13,7 +13,7 @@ export default {
 	fonts: {
 		card_title_size: '20px',
 		card_button_size: '15px',
-		options_size: '20px',
+		options_size: '15px',
 		card_title_font: 'Doppio One',
 		card_button_font: 'Dosis',
 		options_font: 'Inter',

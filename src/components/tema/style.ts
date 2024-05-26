@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Conteiner = styled.div`
 	position: fixed;
-	right: 6rem;
+	right: 3rem;
 	top: 2rem;
 
 	cursor: pointer;

@@ -15,13 +15,13 @@ export const Conteiner = styled.div`
 		transition: 0.3s;
 		color: ${(props) => props.theme.colors.text};
 		font-size: ${(props) => props.theme.fonts.options_size};
-		width: 130px;
-		height: 50px;
+		width: 100px;
+		height: 40px;
 		font-family: ${(props) => props.theme.fonts.options_font};
 	}
 
 	button:hover {
-		background-color: ${(props) => props.theme.colors.secundary};
-		color: ${(props) => props.theme.colors.text};
+		background-color: ${(props) => props.theme.colors.text};
+		color: ${(props) => props.theme.colors.primary};
 	}
 `;

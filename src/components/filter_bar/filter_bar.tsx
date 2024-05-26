@@ -35,6 +35,7 @@ export default function filter_bar() {
 			<button onClick={() => get_digimon_by_level('Ultimate')}>
 				Ultimate
 			</button>
+			<button onClick={() => get_digimon_by_level('Armor')}>Armor</button>
 		</Conteiner>
 	);
 }

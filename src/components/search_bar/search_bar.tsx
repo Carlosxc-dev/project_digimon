@@ -22,7 +22,7 @@ export default function search_bar() {
 			`https://digimon-api.vercel.app/api/digimon/name/${name}`
 		).then(async (response) => {
 			if (!response.ok) {
-				throw new Error('Erro ao buscar digimon');
+				alert('Digimon nao encontrado');
 			}
 			const resp = await response.json(); // Await the response.json() promise
 			setSomeValue(resp);
@@ -36,7 +36,7 @@ export default function search_bar() {
 					<input
 						type="text"
 						className="text"
-						placeholder="Buscar"
+						placeholder="Buscar Digimon..."
 						onChange={handle_change}
 					/>
 					<button
