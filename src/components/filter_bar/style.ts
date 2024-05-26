@@ -9,12 +9,15 @@ export const Conteiner = styled.div`
 
 	button {
 		background-color: ${(props) => props.theme.colors.primary};
-		border: 1px solid ${(props) => props.theme.colors.primary};
+		border: 1px solid ${(props) => props.theme.colors.border};
 		border-radius: 10px;
 		cursor: pointer;
 		transition: 0.3s;
-		padding: 0.5rem 1rem;
 		color: ${(props) => props.theme.colors.text};
+		font-size: ${(props) => props.theme.fonts.options_size};
+		width: 130px;
+		height: 50px;
+		font-family: ${(props) => props.theme.fonts.options_font};
 	}
 
 	button:hover {

@@ -2,16 +2,17 @@ export default {
 	title: 'light',
 
 	colors: {
-		primary: '#d9d9d9',
+		primary: '#abb3bf',
 		secundary: '#008CC7',
-		backgraund_light: '#008CC7',
-		backgraund_dark: '#00123F',
+		backgraund_light: '#808ba2',
+		backgraund_dark: '#7fc4e2',
 		text: '#FFFFFF',
+		border: '#ffffff',
 	},
 
 	fonts: {
 		card_title_size: '20px',
-		card_button_size: '20px',
+		card_button_size: '15px',
 		options_size: '20px',
 		card_title_font: 'Doppio One',
 		card_button_font: 'Dosis',

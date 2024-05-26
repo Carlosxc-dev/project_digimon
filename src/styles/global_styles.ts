@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   * {
@@ -8,7 +8,9 @@ export default createGlobalStyle`
   }
 
   body{
-    background: linear-gradient(to bottom, #b3cde0, #6497b1, #005b96);
+    background: linear-gradient(to bottom,  ${(props) =>
+		props.theme.colors.backgraund_light} 0%, ${(props) =>
+	props.theme.colors.backgraund_dark} 100%);
     
   }
 `;

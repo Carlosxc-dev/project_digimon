@@ -1,52 +1,52 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Conteiner = styled.div`
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 1.5rem;
 
-    .content{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        background-color: #d9d9d9;
-        border-radius: 20px;
-        border: 1px solid #fff;
-        padding: 1rem;
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 1rem;
+		background-color: ${(props) => props.theme.colors.primary};
+		border-radius: 20px;
+		border: 1px solid ${(props) => props.theme.colors.border};
+		padding: 1rem;
 
-        h3{
-            font-size: 20px;
-            color: #fff;
-        }
+		h3 {
+			font-family: ${(props) => props.theme.fonts.card_title_font};
+			font-size: ${(props) => props.theme.fonts.card_title_size};
+			color: ${(props) => props.theme.colors.text};
+		}
 
-        img{
-            width: 200px;
-            height: 200px;
-            border-radius: 20px;
-        }
+		img {
+			width: 200px;
+			height: 200px;
+			border-radius: 20px;
+		}
 
-        button{
-            background-color: #008CC7;
-            border: none;
-            border-radius: 20px;
-            padding: .5rem 1rem;
-            cursor: pointer;
-            font-size: .8rem;
-            font-weight: 700;
-            color: #fff;
-            transition: background-color .3s;
+		button {
+			background-color: ${(props) => props.theme.colors.secundary};
+			border: 1px solid ${(props) => props.theme.colors.primary};
+			border-radius: 20px;
+			padding: 0.5rem 1rem;
+			cursor: pointer;
+			font-family: ${(props) => props.theme.fonts.card_button_font};
+			font-size: ${(props) => props.theme.fonts.card_button_size};
+			color: ${(props) => props.theme.colors.text};
+			transition: background-color 0.3s;
+		}
 
-            &:hover{
-                background-color: #fff;
-                color: #008CC7;
-            }
-        }
-    }
-
+		button:hover {
+			background-color: ${(props) => props.theme.colors.text};
+			color: ${(props) => props.theme.colors.secundary};
+			border: 1px solid ${(props) => props.theme.colors.primary};
+		}
+	}
 `;

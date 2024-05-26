@@ -45,7 +45,7 @@ export default function search_bar() {
 							e.preventDefault();
 							get_digimon_by_name(name);
 						}}>
-						<GoSearch className="icon" />
+						<GoSearch size={25} />
 					</button>
 				</form>
 			</Content>
