@@ -25,7 +25,7 @@ O projeto foi criado usando React e inclui funcionalidades básicas e avançadas
 
 ---
 
-## ⚙️ Responsividade 
+## 🎲 Responsividade 
 Acesse o link abaixo para testar o responsividade em dispositivo mobile, tables e outros
 [Clique aqui!](https://project-digimon.vercel.app)
 
