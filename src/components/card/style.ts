@@ -50,15 +50,6 @@ export const Conteiner = styled.div`
 		}
 	}
 
-	.ball {
-		width: 10px;
-		height: 10px;
-		background-color: ${(props) => props.theme.colors.secundary};
-		border-radius: 50%;
-		display: inline-block;
-		margin-right: 5px;
-	}
-
 	/* reponsividade */
 	@media only screen and (max-width: ${(props) => props.theme.screens.laptop_4k}) {
 	}
