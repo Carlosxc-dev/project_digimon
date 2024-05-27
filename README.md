@@ -30,6 +30,8 @@ O NLW é uma experiência online com muito conteúdo prático, desafios e hacks 
 
 ## 🚀 Como executar o projeto
 
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: Git, Node.js. Além disto é bom ter um editor para trabalhar com o código como VSCode
+
 ```bash
 
 # Clone este repositório
