@@ -39,7 +39,7 @@ npm run dev
 [x] - mudar favicon
 [x] - criar back dos botoes de filtro
 [x] - publicar na vercel
-[] - criar modal
+[x] - criar modal
 [] - ajustar responsividade
 [] - criar botao scrool top
 [] - mudar styles do readme
