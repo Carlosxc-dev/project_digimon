@@ -1,7 +1,6 @@
 import { useContext, useEffect, useState } from 'react';
 import { Conteiner } from './style';
 import { AppContext } from '../../service/render';
-import Modal from '../modal/modal';
 
 export default function card() {
 	const { someValue, setSomeValue } = useContext(AppContext); // recebe o valor do contexto
@@ -16,14 +15,10 @@ export default function card() {
 		get_all_digimon();
 	}, []);
 
-	const [isModalOpen, setIsModalOpen] = useState(false);
+	const [, setIsModalOpen] = useState(false);
 
 	const openModal = () => {
 		setIsModalOpen(true);
-	};
-
-	const closeModal = () => {
-		setIsModalOpen(false);
 	};
 
 	return (
