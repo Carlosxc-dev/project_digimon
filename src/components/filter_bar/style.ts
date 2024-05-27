@@ -21,9 +21,9 @@ export const Conteiner = styled.div`
 		font-family: ${(props) => props.theme.fonts.options_font};
 	}
 
-	button:hover {
-		background-color: ${(props) => props.theme.colors.text};
-		color: ${(props) => props.theme.colors.primary};
+	button.selected {
+		background-color: ${(props) => props.theme.colors.secundary};
+		color: ${(props) => props.theme.colors.text};
 	}
 
 	/* reponsividade */
