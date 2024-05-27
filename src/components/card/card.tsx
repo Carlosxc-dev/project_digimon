@@ -6,6 +6,7 @@ import Modal from '../modal/modal';
 export default function Card() {
 	const { someValue, setSomeValue } = useContext(AppContext); // recebe o valor do contexto
 	const [openModal, setOpenModal] = useState(false);
+	const [hoveredCard, setHoveredCard] = useState<number | null>(null);
 	const [selectedDigimon, setSelectedDigimon] = useState<{
 		name: string;
 		img: string;
@@ -33,7 +34,11 @@ export default function Card() {
 		
 				{Array.isArray(someValue) &&
 					someValue.map((digimon: any, index) => (
-						<div key={index} className="content">
+						<div 
+							key={index} 
+							className={`content ${hoveredCard === index ? 'scale-card' : ''}`}
+							onMouseEnter={() => setHoveredCard(index)}
+							onMouseLeave={() => setHoveredCard(null)}>
 							<h3>{digimon.name}</h3>
 							<img src={digimon.img} alt={digimon.name} />
 							<button onClick={() => handleOpenModal(digimon)}>Ver detalhes</button>

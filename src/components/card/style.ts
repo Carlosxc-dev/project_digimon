@@ -18,7 +18,7 @@ export const Conteiner = styled.div`
 		border-radius: 20px;
 		border: 1px solid ${(props) => props.theme.colors.border};
 		padding: 1rem;
-		transition: transform 0.3s;
+		transition: transform 0.3s ease-in-out;
 
 		h3 {
 			font-family: ${(props) => props.theme.fonts.card_title_font};
@@ -51,10 +51,9 @@ export const Conteiner = styled.div`
 		}
 	}
 
-	.content:hover {
-		/* box-shadow: 0 0 10px 0 ${(props) => props.theme.colors.shadow}; */
-		transform: scale(1.1);
-	}
+		.scale-card {
+			transform: scale(1.1);
+			}
 
 	/* reponsividade */
 	@media only screen and (max-width: ${(props) => props.theme.screens.laptop_4k}) {
