@@ -13,6 +13,7 @@ import Search_bar from '../components/search_bar/search_bar';
 import Filter_bar from '../components/filter_bar/filter_bar';
 import Card from '../components/card/card';
 import Theme from '../components/tema/tema';
+import Modal from '../components/modal/modal';
 
 export default function App() {
 	const [theme, setTheme] = useState(Light);

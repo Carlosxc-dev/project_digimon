@@ -25,6 +25,16 @@ export const Conteiner = styled.div`
 			color: ${(props) => props.theme.colors.text};
 		}
 
+		.image_modal {
+			width: 300px;
+			height: 300px;
+			border-radius: 20px;
+		}
+
+		.text_modal {
+			width: 80%;
+		}
+
 		img {
 			width: 150px;
 			height: 150px;
@@ -48,5 +58,14 @@ export const Conteiner = styled.div`
 			color: ${(props) => props.theme.colors.secundary};
 			border: 1px solid ${(props) => props.theme.colors.primary};
 		}
+	}
+
+	.ball {
+		width: 10px;
+		height: 10px;
+		background-color: ${(props) => props.theme.colors.secundary};
+		border-radius: 50%;
+		display: inline-block;
+		margin-right: 5px;
 	}
 `;

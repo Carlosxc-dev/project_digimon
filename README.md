@@ -26,6 +26,10 @@ npm run dev
 
 ### tarefas
 
-[x] - mudar todas as cores para pegar do styles [x] - fazer tema dark e light []
--ajustar responsividade [x] - mudar favicon [] - criar modal [x]- criar back dos
-botoes de filtro [] - publicar na vercel
+[x] - mudar todas as cores para pegar do styles
+[x] - fazer tema dark e light
+[] - ajustar responsividade
+[x] - mudar favicon
+[] - criar modal
+[x]- criar back dos botoes de filtro
+[x] - publicar na vercel

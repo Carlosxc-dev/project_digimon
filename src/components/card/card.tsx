@@ -1,6 +1,7 @@
-import { useContext, useEffect } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { Conteiner } from './style';
 import { AppContext } from '../../service/render';
+import Modal from '../modal/modal';
 
 export default function card() {
 	const { someValue, setSomeValue } = useContext(AppContext); // recebe o valor do contexto
@@ -17,6 +18,16 @@ export default function card() {
 		get_all_digimon();
 	}, []);
 
+	const [isModalOpen, setIsModalOpen] = useState(false);
+
+	const openModal = () => {
+		setIsModalOpen(true);
+	};
+
+	const closeModal = () => {
+		setIsModalOpen(false);
+	};
+
 	return (
 		<Conteiner>
 			{Array.isArray(someValue) &&
@@ -26,7 +37,7 @@ export default function card() {
 							<h3>{digimon.name}</h3>
 							<h4>{digimon.level}</h4>
 							<img src={digimon.img} alt={digimon.name} />
-							<button>Ver detalhes</button>
+							<button onClick={openModal}>Ver detalhes</button>
 						</div>
 					);
 				})}
