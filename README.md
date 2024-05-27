@@ -52,7 +52,7 @@ npm run dev
 # A aplicação será aberta na porta:5173 - acesse http://localhost:5173
 
 ```
-- Acesse http://localhost:5173 para abrir a aplicacao em localhost no navegador
+Apos executar os comandos acima. Acesse http://localhost:5173 para abrir a aplicacao em localhost no navegador.
 
 ## 🛠 Tecnologias
 
