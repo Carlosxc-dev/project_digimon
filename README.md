@@ -38,16 +38,16 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/Carlosxc-dev/project_digimon.git
+git clone https://github.com/Carlosxc-dev/project_digimon.git
 
 # Entre na pasta do projeto
-$ cd project_digimon
+cd project_digimon
 
 # Instale as dependências
-$ npm install
+npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run dev
+npm run dev
 
 # A aplicação será aberta na porta:5173 - acesse http://localhost:5173
 
