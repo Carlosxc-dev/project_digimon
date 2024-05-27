@@ -1,7 +1,7 @@
 import { GoSearch } from 'react-icons/go';
 import { Conteiner, Content } from './style';
 import { useContext, useState } from 'react';
-import { AppContext } from '../../service/render';
+import { AppContext } from '../../createContext/createContext';
 
 export default function search_bar() {
 	const [name, setName] = useState('');

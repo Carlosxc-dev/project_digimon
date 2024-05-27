@@ -13,6 +13,7 @@ export default function Modal({ isOpen, setModalOpen, children }: any) {
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eligendi
 						ducimus sit culpa quod? Consequuntur veniam aperiam, magni inventore magnam
 						ipsum optio odio saepe ullam eaque. Modi id cupiditate maiores?
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolore 
 					</p>
 				</div>
 			</Conteiner>

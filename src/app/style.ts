@@ -34,5 +34,14 @@ export const Btn = styled.header`
 			background-color: ${(props) => props.theme.colors.secondary};
 			transform: scale(1.1);
 		}
+
+		@media only screen and (max-width: ${(props) => props.theme.screens.mobile_large}) {
+			bottom: 10px;
+			right: 5px;
+		}
+		@media only screen and (max-width: ${(props) => props.theme.screens.mobile_small}) {
+			right: 20px;
+		}
+	}
 	
 `;

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './app/App';
 // Context
-import { AppProvider } from '../src/service/render';
+import { AppProvider } from '../src/createContext/createContext';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>

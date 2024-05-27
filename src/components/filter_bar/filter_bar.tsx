@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { AppContext } from '../../service/render';
+import { AppContext } from '../../createContext/createContext';
 import { Conteiner } from './style';
 
 export default function filter_bar() {

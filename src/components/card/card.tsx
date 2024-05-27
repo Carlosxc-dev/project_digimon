@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from 'react';
 import { Conteiner } from './style';
-import { AppContext } from '../../service/render';
+import { AppContext } from '../../createContext/createContext';
 import Modal from '../modal/modal';
 
 export default function Card() {
