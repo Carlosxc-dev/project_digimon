@@ -1,18 +1,10 @@
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="public/banner.png" />
+    <img alt="imagem digimon" title="digimon" src="public/banner.png" />
 </h1>
 
 <h4 align="center"> 
 	🚧  Digimon ♻️ Concluído 🚀 🚧
 </h4>
-
-<p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#user-content--licença">Licença</a>
-</p>
 
 ## 💻 Sobre o projeto
 
@@ -25,10 +17,18 @@ O projeto foi criado usando React e inclui funcionalidades básicas e avançadas
 
 - [x] **Listagem de Digimons:** Exibe todos os Digimons com suas imagens e nomes.
 - [x] **Pesquisa de Digimons:** Permite filtrar Digimons pelo nome.
+- [x] **Filtros por levels:** Permite filtrar Digimons pelo seu nivel.
 - [x] **Detalhes do Digimon:** Exibe informações detalhadas sobre o Digimon selecionado.
 - [x] **Design Responsivo:** Interface adaptável para diferentes dispositivos e tamanhos de tela.
+- [x] **botao scroll top:** Botao canto inferior direito para voltar para topo da pagina.
+- [x] **toogle tema:** Botao canto superior direito para alternar tema da pagina(dark / light)
 
 ---
+
+## ⚙️ Responsividade 
+Acesse o link abaixo para testar o responsividade em dispositivo mobile, tables e outros
+[Clique aqui!](https://project-digimon.vercel.app)
+
 
 ## 🚀 Como executar o projeto
 
@@ -67,16 +67,3 @@ Este projeto esta sobe a licença [MIT](./LICENSE).
 Feito com ❤️ por Carlos Henrique 👋🏽 [Entre em contato!](https://carlosxc-dev.github.io/Portifolio/)
 
 ---
-
-### tarefas
-
-- [x] mudar todas as cores para pegar do styles
-- [x] fazer tema dark e light
-- [x] mudar favicon
-- [x] criar back dos botoes de filtro
-- [x] publicar na vercel
-- [x] criar modal
-- [x] ajustar responsividade
-- [x] criar botao scrool top
-- [x] mudar styles do readme
-- [] comentar codigo
