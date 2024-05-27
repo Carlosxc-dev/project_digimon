@@ -7,6 +7,7 @@ export const Conteiner = styled.div`
 	align-items: center;
 	margin: 2rem 0;
 
+	
 	button {
 		background-color: ${(props) => props.theme.colors.primary};
 		border: 1px solid ${(props) => props.theme.colors.border};

@@ -76,7 +76,7 @@ Feito com ❤️ por Carlos Henrique 👋🏽 [Entre em contato!](https://carlos
 - [x] criar back dos botoes de filtro
 - [x] publicar na vercel
 - [x] criar modal
-- [] ajustar responsividade
-- [] criar botao scrool top
-- [] mudar styles do readme
+- [x] ajustar responsividade
+- [x] criar botao scrool top
+- [x] mudar styles do readme
 - [] comentar codigo

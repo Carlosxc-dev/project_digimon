@@ -74,4 +74,27 @@ export const Conteiner = styled.div`
 			color: ${(props) => props.theme.colors.text};
 		}
 	}
+
+		/* reponsividade */
+		@media only screen and (max-width: ${(props) => props.theme.screens.laptop_4k}) {
+			.content {
+				width: 50%;
+				padding: 40px;
+			}
+		}
+
+		@media only screen and (max-width: ${(props) => props.theme.screens.tablet}) {
+			.content {
+				width: 60%;
+				padding: 30px;
+			}
+
+		}
+		@media only screen and (max-width: ${(props) => props.theme.screens.mobile_large}) {
+			.content {
+				width: 80%;
+				padding: 20px;
+			}
+
+		}
 `;

@@ -28,31 +28,34 @@ export default function Card() {
 	};
 
 	return (
+		
 		<Conteiner>
-			{Array.isArray(someValue) &&
-				someValue.map((digimon: any, index) => (
-					<div key={index} className="content">
-						<h3>{digimon.name}</h3>
-						<img src={digimon.img} alt={digimon.name} />
-						<button onClick={() => handleOpenModal(digimon)}>Ver detalhes</button>
-					</div>
-				))}
-			<Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)}>
-				{selectedDigimon && (
-					<div className="content_modal">
-						<h3 className="title_modal">{selectedDigimon.name}</h3>
-						<img
-							className="img_modal"
-							src={selectedDigimon.img}
-							alt={selectedDigimon.name}
-						/>
-						<p className="level_modal">
-							<span className="ball"></span>
-							{selectedDigimon.level}
-						</p>
-					</div>
-				)}
-			</Modal>
+		
+				{Array.isArray(someValue) &&
+					someValue.map((digimon: any, index) => (
+						<div key={index} className="content">
+							<h3>{digimon.name}</h3>
+							<img src={digimon.img} alt={digimon.name} />
+							<button onClick={() => handleOpenModal(digimon)}>Ver detalhes</button>
+						</div>
+					))}
+				<Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)}>
+					{selectedDigimon && (
+						<div className="content_modal">
+							<h3 className="title_modal">{selectedDigimon.name}</h3>
+							<img
+								className="img_modal"
+								src={selectedDigimon.img}
+								alt={selectedDigimon.name}
+								/>
+							<p className="level_modal">
+								<span className="ball"></span>
+								{selectedDigimon.level}
+							</p>
+						</div>
+					)}
+				</Modal>
+		
 		</Conteiner>
 	);
 }

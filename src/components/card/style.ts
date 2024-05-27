@@ -18,6 +18,7 @@ export const Conteiner = styled.div`
 		border-radius: 20px;
 		border: 1px solid ${(props) => props.theme.colors.border};
 		padding: 1rem;
+		transition: transform 0.3s;
 
 		h3 {
 			font-family: ${(props) => props.theme.fonts.card_title_font};
@@ -48,6 +49,11 @@ export const Conteiner = styled.div`
 			color: ${(props) => props.theme.colors.secundary};
 			border: 1px solid ${(props) => props.theme.colors.primary};
 		}
+	}
+
+	.content:hover {
+		/* box-shadow: 0 0 10px 0 ${(props) => props.theme.colors.shadow}; */
+		transform: scale(1.1);
 	}
 
 	/* reponsividade */

@@ -34,7 +34,7 @@ export const Conteiner = styled.div`
 	}
 	@media only screen and (max-width: ${(props) => props.theme.screens.mobile_large}) {
 		right: 50%;
-		top: 8.5rem;
+		top: 10rem;
 		transform: translate(50%, -50%);
 		width: 100px;
 		height: 40px;
