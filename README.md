@@ -27,7 +27,6 @@ O projeto foi criado usando React e inclui funcionalidades básicas e avançadas
 - [x] **Pesquisa de Digimons:** Permite filtrar Digimons pelo nome.
 - [x] **Detalhes do Digimon:** Exibe informações detalhadas sobre o Digimon selecionado.
 - [x] **Design Responsivo:** Interface adaptável para diferentes dispositivos e tamanhos de tela.
-- [x] além de selecionar um ou mais ítens de coleta: 
 
 ---
 
@@ -38,7 +37,10 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 ```bash
 
 # Clone este repositório
-$ git clone [git@github.com:tgmarinho/README-ecoleta.git](https://github.com/Carlosxc-dev/project_digimon.git)
+$ git clone https://github.com/Carlosxc-dev/project_digimon.git
+
+# Entre na pasta do projeto
+$ cd project_digimon
 
 # Instale as dependências
 $ npm install
@@ -53,10 +55,10 @@ $ npm run dev
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
-- **vite:** Biblioteca para fazer requisições HTTP.
-- **React:** Biblioteca JavaScript para construir interfaces de usuário.
-- **styled-components:** Framework CSS para design responsivo (opcional).
-- **react-icons:** Framework CSS utilitário para estilização (opcional).
+- **vite:** 
+- **React:** 
+- **styled-components:**
+- **react-icons:** 
 
 ## 📝 Licença
 
@@ -68,13 +70,13 @@ Feito com ❤️ por Carlos Henrique 👋🏽 [Entre em contato!](https://carlos
 
 ### tarefas
 
-[x] - mudar todas as cores para pegar do styles
-[x] - fazer tema dark e light
-[x] - mudar favicon
-[x] - criar back dos botoes de filtro
-[x] - publicar na vercel
-[x] - criar modal
-[] - ajustar responsividade
-[] - criar botao scrool top
-[] - mudar styles do readme
-[] - comentar codigo
+- [x] mudar todas as cores para pegar do styles
+- [x] fazer tema dark e light
+- [x] mudar favicon
+- [x] criar back dos botoes de filtro
+- [x] publicar na vercel
+- [x] criar modal
+- [] ajustar responsividade
+- [] criar botao scrool top
+- [] mudar styles do readme
+- [] comentar codigo
