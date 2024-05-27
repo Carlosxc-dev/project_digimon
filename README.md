@@ -12,7 +12,11 @@ git clone <url do repositorio>
 
 ```
 npm install
+```
+
 ou
+
+```
 yarn
 ```
 
@@ -20,7 +24,11 @@ yarn
 
 ```
 yarn dev
+```
+
 ou
+
+```
 npm run dev
 ```
 
@@ -28,8 +36,11 @@ npm run dev
 
 [x] - mudar todas as cores para pegar do styles
 [x] - fazer tema dark e light
-[] - ajustar responsividade
 [x] - mudar favicon
-[] - criar modal
-[x]- criar back dos botoes de filtro
+[x] - criar back dos botoes de filtro
 [x] - publicar na vercel
+[] - criar modal
+[] - ajustar responsividade
+[] - criar botao scrool top
+[] - mudar styles do readme
+[] - comentar codigo

@@ -24,4 +24,34 @@ export const Conteiner = styled.div`
 		background-color: ${(props) => props.theme.colors.text};
 		color: ${(props) => props.theme.colors.primary};
 	}
+
+	/* reponsividade */
+	@media only screen and (max-width: ${(props) => props.theme.screens.laptop_4k}) {
+	}
+	@media only screen and (max-width: ${(props) => props.theme.screens.laptop_large}) {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1rem;
+		margin: 1rem 0;
+		margin-bottom: 2rem;
+	}
+	@media only screen and (max-width: ${(props) => props.theme.screens.tablet}) {
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+	@media only screen and (max-width: ${(props) => props.theme.screens.mobile_large}) {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 1rem;
+		margin: 1rem 0;
+		margin-bottom: 2rem;
+
+		button {
+			width: 80px;
+			height: 30px;
+			font-size: 12px;
+		}
+	}
 `;

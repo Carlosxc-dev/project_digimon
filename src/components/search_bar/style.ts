@@ -6,7 +6,7 @@ export const Conteiner = styled.div`
 `;
 
 export const Content = styled.div`
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 
 	form {
@@ -45,5 +45,11 @@ export const Content = styled.div`
 	form:hover {
 		border: 1px solid ${(props) => props.theme.colors.text};
 		background-color: ${(props) => props.theme.colors.secundary};
+	}
+
+	/* reponsividade */
+	@media only screen and (max-width: ${(props) => props.theme.screens.tablet}) {
+	}
+	@media only screen and (max-width: ${(props) => props.theme.screens.mobile_large}) {
 	}
 `;

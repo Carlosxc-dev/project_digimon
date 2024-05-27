@@ -20,6 +20,7 @@ export default {
 	},
 
 	screens: {
+		laptop_4k: '2560px',
 		laptop_large: '1440px',
 		laptop_medium: '1024px',
 		tablet: '768px',

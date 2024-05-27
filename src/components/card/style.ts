@@ -25,16 +25,6 @@ export const Conteiner = styled.div`
 			color: ${(props) => props.theme.colors.text};
 		}
 
-		.image_modal {
-			width: 300px;
-			height: 300px;
-			border-radius: 20px;
-		}
-
-		.text_modal {
-			width: 80%;
-		}
-
 		img {
 			width: 150px;
 			height: 150px;
@@ -67,5 +57,29 @@ export const Conteiner = styled.div`
 		border-radius: 50%;
 		display: inline-block;
 		margin-right: 5px;
+	}
+
+	/* reponsividade */
+	@media only screen and (max-width: ${(props) => props.theme.screens.laptop_4k}) {
+	}
+	@media only screen and (max-width: ${(props) => props.theme.screens.tablet}) {
+	}
+	@media only screen and (max-width: ${(props) => props.theme.screens.mobile_large}) {
+		.content {
+			img {
+				width: 100px;
+				height: 100px;
+			}
+		}
+	}
+	@media only screen and (max-width: ${(props) => props.theme.screens.mobile_small}) {
+		gap: 1rem;
+		.content {
+			gap: 0.5rem;
+			img {
+				width: 150px;
+				height: 150px;
+			}
+		}
 	}
 `;
