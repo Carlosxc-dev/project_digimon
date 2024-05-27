@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center"> 
-	🚧  Ecoleta ♻️ Concluído 🚀 🚧
+	🚧  Digimon ♻️ Concluído 🚀 🚧
 </h4>
 
 <p align="center">
@@ -16,31 +16,18 @@
 
 ## 💻 Sobre o projeto
 
-♻️ Ecoleta - é uma forma de conectar empresas e entidades de coleta de resíduos orgânicos e inorgânicos as pessoas que precisam descartar seus resíduos de maneira ecológica.
-
-
-Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/).
-O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
+♻️ Este projeto é um frontend simples que consome a API do Digimon para listar, pesquisar e exibir detalhes sobre os Digimons. 
+O projeto foi criado usando React e inclui funcionalidades básicas e avançadas para melhorar a experiência do usuário.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- [x] Empresas ou entidades podem se cadastrar na plataforma web enviando:
-  - [x] uma imagem do ponto de coleta
-  - [x] nome da entidade, email e whatsapp
-  - [x] e o endereço para que ele possa aparecer no mapa
-  - [x] além de selecionar um ou mais ítens de coleta: 
-    - lâmpadas
-    - pilhas e baterias
-    - papéis e papelão
-    - resíduos eletrônicos
-    - resíduos orgânicos
-    - óleo de cozinha
-
-- [x] Os usuários tem acesso ao aplicativo móvel, onde podem:
-  - [x] navegar pelo mapa para ver as instituições cadastradas
-  - [x] entrar em contato com a entidade através do E-mail ou do WhatsApp
+- [x] **Listagem de Digimons:** Exibe todos os Digimons com suas imagens e nomes.
+- [x] **Pesquisa de Digimons:** Permite filtrar Digimons pelo nome.
+- [x] **Detalhes do Digimon:** Exibe informações detalhadas sobre o Digimon selecionado.
+- [x] **Design Responsivo:** Interface adaptável para diferentes dispositivos e tamanhos de tela.
+- [x] além de selecionar um ou mais ítens de coleta: 
 
 ---
 
@@ -51,33 +38,31 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
-
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd README-ecoleta
-
-# Vá para a pasta da aplicação Front End
-$ cd web
+$ git clone [git@github.com:tgmarinho/README-ecoleta.git](https://github.com/Carlosxc-dev/project_digimon.git)
 
 # Instale as dependências
 $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run start
+$ npm run dev
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# A aplicação será aberta na porta:5173 - acesse http://localhost:5173
 
 ```
 
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
+- **vite:** Biblioteca para fazer requisições HTTP.
+- **React:** Biblioteca JavaScript para construir interfaces de usuário.
+- **styled-components:** Framework CSS para design responsivo (opcional).
+- **react-icons:** Framework CSS utilitário para estilização (opcional).
 
 ## 📝 Licença
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito com ❤️ por Carlos Henrique 👋🏽 [Entre em contato!](xxxxx)
+Feito com ❤️ por Carlos Henrique 👋🏽 [Entre em contato!](https://carlosxc-dev.github.io/Portifolio/)
 
 ---
 
