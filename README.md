@@ -1,12 +1,9 @@
-<h1 align="center">
-    <img alt="imagem digimon" title="digimon" src="public/banner.png" />
-</h1>
+<img alt="imagem digimon" title="digimon" src="screen.png" />
 
 <h4 align="center"> 
 	🚧  Digimon ♻️ Concluído 🚀 🚧
 </h4>
 
-<img alt="imagem digimon" title="digimon" src="screen.png" />
 
 ## 💻 Sobre o projeto
 
