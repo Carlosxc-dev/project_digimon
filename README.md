@@ -6,6 +6,8 @@
 	🚧  Digimon ♻️ Concluído 🚀 🚧
 </h4>
 
+<img alt="imagem digimon" title="digimon" src="screen.png" />
+
 ## 💻 Sobre o projeto
 
 ♻️ Este projeto é um frontend simples que consome a API do Digimon para listar, pesquisar e exibir detalhes sobre os Digimons. 
